@@ -18,5 +18,8 @@ name = 1.235
 isso não vai causar nenhuma quebra no código (mas é aquilo, variáveis
 devem ser bem declaradas para evitar comentários denecessários e devem conter
 exatamente o que o nome diz conter.)
+
+existe ainda a coerção de valores (de str para int e etc) mas não entendi bem
+como fazer essa coerção usando os valores.
 */
 
