@@ -19,8 +19,7 @@ isso não vai causar nenhuma quebra no código (mas é aquilo, variáveis
 devem ser bem declaradas para evitar comentários denecessários e devem conter
 exatamente o que o nome diz conter.)
 
-existe ainda a coerção de valores (de str para int e etc) mas não entendi bem
-como fazer essa coerção usando os valores.
+existe ainda a coerção de valores (de str para int e etc)
 uma das formas de fazer a coerção de valores é a seguinte
 
 */
@@ -37,5 +36,13 @@ console.log(resultado)
 
 /*quando não se adiciona o + antes da variável, ele concatena como se faz com str */
 
-
-
+/*A outra forma de fazer a conversão de numeros e usando o Number.parseInt(n)/
+Number.parseFloat(n).
+vamos ao testes
+*/
+resultado = Number.parseInt(numeroUm )+ Number.parseInt(numeroDois)
+console.log(resultado)
+/*ainda existe o  jeito mais tranquilo de converter, CASO O TIPO NÃO SEJA 
+ESSENCIAL, que é usando number */
+resultado = Number(numeroUm )+ Number(numeroDois)
+console.log(resultado)
