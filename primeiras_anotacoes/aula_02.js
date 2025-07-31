@@ -21,5 +21,21 @@ exatamente o que o nome diz conter.)
 
 existe ainda a coerção de valores (de str para int e etc) mas não entendi bem
 como fazer essa coerção usando os valores.
+uma das formas de fazer a coerção de valores é a seguinte
+
 */
+var numeroUm = '1';
+var numeroDois = '2';
+var resultado ="" ;
+resultado = +numeroUm + +numeroDois;
+console.log(resultado)
+
+/* caso  a conta não tivesse o +numeroUm e +numeroDois, não seria possivel somar, ocorreria um pequeno erro. veja
+ */
+resultado = numeroUm + numeroDois;
+console.log(resultado)
+
+/*quando não se adiciona o + antes da variável, ele concatena como se faz com str */
+
+
 
