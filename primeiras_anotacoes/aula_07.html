@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mais uma aula</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: gray;
+        }
+        main, header{
+            background-color: white;
+        }
+        header{
+            height: 100px;
+        }
+        main{
+            height: 80vh;
+            width:80vw;
+            margin: auto;
+            box-shadow: 10px 10px 10px 1px black;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        h1{
+            text-align: center;
+            transform: translateY(25px);
+        }
+        p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>começando com dom</h1>
+    </header>
+    <main>
+        <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quas nulla vitae totam nisi hic minima. Praesentium ex voluptas officia veniam non aliquid optio laborum, nisi magnam earum porro cupiditate?
+        </p>
+        <p>apenas para ter um p diferente</p>
+    </main>
+    <script>
+        var p1 =window.document.getElementsByTagName('p')
+        /*O que rola aqui. esse getElementsByTagName é um seletor,
+        ele vai selecionar todos os elementos que aparecem no meu html
+        que apresentema a mesma tag. Porem, caso desejemos um elemento
+        especifico, como apenas o 1 paragrafo, usamos o mesmo esquema de 
+        python para selecionar elementos numa lista, usamos os indicies. 
+        E os indices se comportam com a mesma forma que na lista,
+        assim sendo, para pegar o 1 paragrafo do meu html, escrevemos
+        window.document.getElementsByTagName('p')[0]
+        pois meu 1 p é meu index 0
+        */
+    </script>
+</body>
+</html>
