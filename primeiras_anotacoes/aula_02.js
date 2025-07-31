@@ -25,6 +25,7 @@ uma das formas de fazer a coerção de valores é a seguinte
 */
 var numeroUm = '1'
 var numeroDois = '2'
+var numeroTres = 150.1
 var resultado ="" 
 resultado = +numeroUm + +numeroDois
 console.log(resultado)
@@ -46,3 +47,15 @@ console.log(resultado)
 ESSENCIAL, que é usando number */
 resultado = Number(numeroUm )+ Number(numeroDois)
 console.log(resultado)
+/*
+s.lenght sendo s a variável, conta os ccaracteres.
+.toUpperCase() tudo maiusculo
+.toLowerCase() tudo minusculo
+document.write() é um print mas no corpo do htlm
+numero.toFixed(2) determina as casas decimais
+numero.toFixed(2) replace (".",",") aqui muda o . para ,
+*/
+
+console.log(numeroTres.toFixed(2) )
+console.log(numeroTres.toFixed(2).replace (".",","))
+console.log(numeroTres.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}))
