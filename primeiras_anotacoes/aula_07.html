@@ -47,7 +47,7 @@
         <p>apenas para ter um p diferente</p>
     </main>
     <script>
-        var p1 =window.document.getElementsByTagName('p')
+        var p1 =window.document.getElementsByTagName('p')[0]
         /*O que rola aqui. esse getElementsByTagName é um seletor,
         ele vai selecionar todos os elementos que aparecem no meu html
         que apresentema a mesma tag. Porem, caso desejemos um elemento
@@ -57,7 +57,9 @@
         assim sendo, para pegar o 1 paragrafo do meu html, escrevemos
         window.document.getElementsByTagName('p')[0]
         pois meu 1 p é meu index 0
+        vamos ver ele na tela
         */
+       window.document.write('está escrito assim' + p1.innerText)
     </script>
 </body>
 </html>
