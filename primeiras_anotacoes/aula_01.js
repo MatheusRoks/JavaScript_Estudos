@@ -32,5 +32,8 @@ no mdn fala sobre iniciar com letra, $ ou _, seguido de letras e numeros
 (se desejar). já o livro que estou lendo JavaScript do Kelvin, apresenta
 as variáveis da forma que nomeei nome do usuário. nomeUsuario ou 
 nomeDoUsuario. posteriormente posso vir aqui e adicionar uma nova anotação
-conforme minha duvida seja saciada
+conforme minha duvida seja saciada.
+
+ o mdn é a forma correta, ainda não ficou claro sobre a questão de letra 
+ maiuscula no código.
  */
